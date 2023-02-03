@@ -46,6 +46,11 @@ h2 {
   color: #c9d1d9;
   fill: #c9d1d9;
 }
+  
+#gh-transparent-mode-only:target h2 {
+  color: #c9d1d9;
+  fill: #c9d1d9;
+}
 
 ul {
   list-style: none;
@@ -87,6 +92,11 @@ div.ellipsis {
   fill: #8b949e;
 }
 
+#gh-transparent-mode-only:target .octicon {
+  color: #8b949e;
+  fill: #8b949e;
+}
+
 .progress {
   display: flex;
   height: 8px;
@@ -100,6 +110,9 @@ div.ellipsis {
 #gh-dark-mode-only:target .progress {
   background-color: rgba(110, 118, 129, 0.4);
 }
+#gh-transparent-mode-only:target .progress {
+  background-color: rgba(110, 118, 129, 0.4);
+}
 
 .progress-item {
   outline: 2px solid rgb(225, 228, 232);
@@ -107,6 +120,9 @@ div.ellipsis {
 }
 
 #gh-dark-mode-only:target .progress-item {
+  outline: 2px solid #393f47;
+}
+#gh-transparent-mode-only:target .progress-item {
   outline: 2px solid #393f47;
 }
 
@@ -120,11 +136,18 @@ div.ellipsis {
   color: #c9d1d9;
 }
 
+#gh-transparent-mode-only:target .lang {
+  color: #c9d1d9;
+}
+
 .percent {
   color: rgb(88, 96, 105)
 }
 
 #gh-dark-mode-only:target .percent {
+  color: #8b949e;
+}
+#gh-transparent-mode-only:target .percent {
   color: #8b949e;
 }
 </style>
